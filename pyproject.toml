@@ -31,7 +31,7 @@ dev = [
     "maturin>=1.14.1",
     "mypy>=1.14.1",
     "pytest>=8.3.5",
-    "ruff>=0.15.22",
+    "ruff>=0.17.2",
     "wemake-python-styleguide>=0.17.0",
 ]
 docs = [
