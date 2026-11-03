@@ -27,13 +27,13 @@ def _load_pure_python_module() -> ModuleType:
 
 _PURE_PYTHON_TRIE = _load_pure_python_module().Trie
 
-IMPLEMENTATIONS = (
+TRIE_IMPLEMENTATIONS = (
     pytest.param(FastTrie, id="fast_collections"),
     pytest.param(_PURE_PYTHON_TRIE, id="pure_python"),
 )
 
 
-@pytest.fixture(params=IMPLEMENTATIONS)
+@pytest.fixture(params=TRIE_IMPLEMENTATIONS)
 def trie(request: pytest.FixtureRequest) -> Any:
     "An empty trie, over both implementations."
     return request.param()
