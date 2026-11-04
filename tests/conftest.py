@@ -13,19 +13,17 @@ _BENCHMARKS_TRIE_DIR = (
 _PURE_PYTHON_TRIE_PATH = _BENCHMARKS_TRIE_DIR / "pure_python.py"
 
 
-def _load_pure_python_module() -> ModuleType:
+def _load_pure_python_module(path: Path) -> ModuleType:
     "Load the pure Python trie reference kept next to the benchmarks."
-    spec = util.spec_from_file_location("pure_python", _PURE_PYTHON_TRIE_PATH)
+    spec = util.spec_from_file_location("pure_python", path)
     if spec is None or spec.loader is None:
-        raise RuntimeError(
-            f"cannot load the pure Python trie from {_PURE_PYTHON_TRIE_PATH}"
-        )
+        raise RuntimeError(f"cannot load the pure Python trie from {path}")
     module = util.module_from_spec(spec)
     spec.loader.exec_module(module)
     return module
 
 
-_PURE_PYTHON_TRIE = _load_pure_python_module().Trie
+_PURE_PYTHON_TRIE = _load_pure_python_module(_PURE_PYTHON_TRIE_PATH).Trie
 
 TRIE_IMPLEMENTATIONS = (
     pytest.param(FastTrie, id="fast_collections"),
