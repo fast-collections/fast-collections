@@ -4,6 +4,7 @@
 [![test](https://github.com/Fast-Python/fast-collections/actions/workflows/test.yml/badge.svg)](https://github.com/Fast-Python/fast-collections/actions/workflows/test.yml)
 [![GitHub stars](https://img.shields.io/github/stars/Fast-Python/fast-collections?style=social)](https://github.com/Fast-Python/fast-collections/)
 [![Python Version](https://img.shields.io/pypi/pyversions/fast-collections.svg)](https://pypi.org/project/fast-collections/)
+[![No AI slop](https://img.shields.io/badge/no-slop-purple.svg)](https://github.com/fast-collections/fast-collections/blob/main/.github/AI_POLICY.md)
 
 **Blazing-fast data structures and algorithms you've been missing** — written in Rust, usable from Python.
 
