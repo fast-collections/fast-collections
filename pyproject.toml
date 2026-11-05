@@ -28,7 +28,7 @@ bench = [
     "pytest-codspeed>=4.2.0",
 ]
 dev = [
-    "maturin>=1.14.1",
+    "maturin>=1.16.0",
     "mypy>=1.14.1",
     "pytest>=8.3.5",
     "ruff>=0.15.22",
@@ -41,7 +41,7 @@ docs = [
 ]
 
 [build-system]
-requires = ["maturin>=1.0"]
+requires = ["maturin>=1.16.0"]
 build-backend = "maturin"
 
 [tool.maturin]
