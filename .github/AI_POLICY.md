@@ -1,30 +1,45 @@
-# AI Policy
+<!--
+AI Policy.
 
-We support using AI tools (like LLMs) to help with coding. However, you remain responsible for everything you submit and we remain responsible for everything we merge.
+Copied from
+https://github.com/astral-sh/.github/blob/main/AI_POLICY.md
+undert MIT license.
 
-## Using AI as a tool
+All the credit goes to the Astral team.
+-->
 
-Always read, run and check AI output that you are going to submit.
+We support using AI (i.e., LLMs) as tools for coding. However, you remain
+responsible for any code you publish and we are responsible for any code we
+merge and release. We hold a high bar for all contributions to our projects.
 
-**Bad:** Sending AI output without reading or testing it.
+**AI should not be used to generate comments when communicating with
+maintainers**. We expect comments on our projects to be written by humans. We
+may hide any comments that we believe are AI generated.
 
-**Good:** Using AI to get started, then checking every change by yourself.
+If you are opening an issue, we expect you to describe the problem in your own
+words.
 
-## Writing comments and pull requests
+If you are opening a pull request, we expect you to be able to explain the
+proposed changes in your own words. This includes the pull request body and
+responses to questions. **Do not copy responses from the AI when replying to
+questions from maintainers.**
 
-Write your comments, issues and pull request descriptions in your own words. You must be able to explain the changes that you made when maintainers ask about it.
+Due to the foundational nature of our projects, we require a human in the loop
+who understands the work produced by AI. **We do not allow autonomous agents to
+be used for contributing to our projects**. We will close any pull requests that
+we believe were created autonomously.
 
-**Bad:** The AI wrote it, I don't know how it works.
+If you wish to include context from an interaction with AI in your comments, it
+must be in a quote block (e.g., using `>`) and disclosed as such. It must be
+accompanied by human commentary explaining the relevance and implications of the
+context. Do not share long snippets.
 
-**Good:** I changed this because of X. Could you check if this approach is okay?
+We understand that AI is useful when communicating as a non-native English
+speaker. If you are using AI to edit your comments for this purpose, please take
+the time to ensure it reflects your own voice and ideas. If using AI for
+translation, we recommend writing in your native language and including the AI
+translation in a quote block.
 
-## Autonomous agents
+`fast-collections` organisation will block any users that abuse our AI policy.
 
-We do not allow autonomous AI agents to contribute. A human who understands the entire concept and work must be involved.
-
-## Using AI to improve your English
-
-AI can help you in improving your English and that is totally fine. Make sure the final text still sounds like you and contains your own words and ideas.
-
-Inspired by the AI policy of [django-modern-rest](https://github.com/wemake-services/django-modern-rest/blob/master/.github/AI_POLICY.md).
-
+P.S. Respectfully copied from [Astral](https://github.com/astral-sh/.github/blob/main/AI_POLICY.md) team.
