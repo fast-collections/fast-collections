@@ -1,7 +1,7 @@
 # fast-collections
 
 [![Fast Python](https://img.shields.io/badge/fast-python-red?labelColor=black&style=flat-square)](https://github.com/fast-collections)
-[![test](https://fast-collections.github.io/fast-collections/actions/workflows/test.yml/badge.svg)](https://fast-collections.github.io/fast-collections/actions/workflows/test.yml)
+[![test](https://github.com/Fast-Python/fast-collections/actions/workflows/test.yml/badge.svg)](https://github.com/Fast-Python/fast-collections/actions/workflows/test.yml)
 [![Python Version](https://img.shields.io/pypi/pyversions/fast-collections.svg)](https://pypi.org/project/fast-collections/)
 [![No AI slop](https://img.shields.io/badge/no-slop-purple.svg)](https://github.com/fast-collections/fast-collections/blob/main/.github/AI_POLICY.md)
 
