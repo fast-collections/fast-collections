@@ -48,4 +48,4 @@ assert "hello" in t
 assert t.starts_with("he")
 ```
 
-See the [full documentation](https://github.com/Fast-Python/fast-collections/) for all available data structures, algorithms, and their APIs.
+See the [full documentation](https://fast-collections.github.io/fast-collections/) for all available data structures, algorithms, and their APIs.
