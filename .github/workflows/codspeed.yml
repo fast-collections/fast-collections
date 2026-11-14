@@ -12,6 +12,8 @@ on:
       - 'docs/**'
       - 'mkdocs.yml'
       - '*.md'
+      - 'pyproject.toml'
+      - 'uv.lock'
   # `workflow_dispatch` allows CodSpeed to trigger backtest
   # performance analysis in order to generate initial data.
   workflow_dispatch:
