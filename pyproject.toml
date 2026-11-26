@@ -32,7 +32,7 @@ dev = [
     "mypy>=2.4.1",
     "pytest>=9.2.0",
     "ruff>=0.17.6",
-    "wemake-python-styleguide>=0.17.0",
+    "wemake-python-styleguide>=1.9.0",
 ]
 docs = [
     "mkdocs>=1.6.1",
